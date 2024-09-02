@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="status-bar">
+            <span>17:43</span>
+            <span>
+                <i class="fas fa-bluetooth-b"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-full"></i>
+            </span>
+        </div>
+        <div id="search-container">
+            <input type="text" id="city-search" placeholder="Enter city name">
+        </div>
+        <div id="location">Letnany</div>
+        <div id="temperature">27°</div>
+        <div id="weather-info">
+            <div>Облачно 30°/16°</div>
+            <div id="air-quality">ИКВ 56</div>
+        </div>
+        <div id="forecast">
+            <h3>5 Tages Vorhersage</h3>
+            <div class="forecast-items">
+                <!-- Forecast items will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script> 
+</body>
+</html>
